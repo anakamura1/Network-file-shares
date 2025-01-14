@@ -38,21 +38,21 @@ Folder: “Write-access”,  Group: “Domain Users”, Permissions: “Read/Wri
 Folder: “No-access”, Group: “Domain Admins”, “Permissions: “Read/Write”
   We will skip the HR Only folder for now.
 </p>
+<br>
 
 <table>
   <tr>
     <td>
-<img width="962" alt="Screenshot 2025-01-10 at 3 16 38 PM" src="https://github.com/user-attachments/assets/07461916-ca8e-4828-818f-831be4472cb1" />
+<img width="399" alt="Screenshot 2025-01-10 at 3 33 40 PM" src="https://github.com/user-attachments/assets/7da2d858-a060-4e05-996c-ceeaf5ef59d2" />
     </td>
     <td>
-<img width="343" alt="Screenshot 2025-01-10 at 3 16 59 PM" src="https://github.com/user-attachments/assets/ef125d4f-8f50-4b04-9a9a-f655f4850bad" />
+<img width="1123" alt="Screenshot 2025-01-10 at 3 33 56 PM" src="https://github.com/user-attachments/assets/f4ccbac6-a754-4e6d-b111-0cb23d7c3c80" />
     </td>
   </tr>
 </table>
 
-<p>Within DC-1 login as Jane.Admin and open up DNS Manager. Navigate to mydomain.com and right click to create a New Host A-Record</p>
-<p>Type in "mothership" and have the record resolve it to the domain controller server's IP address.</p>
-<p></p>
+<p>Within Client-1, log in as any user and go to Start -> Run -> \\dc-1</p>
+<p>This will open the shared folders and notice that they the permissions are enforced.</p>
   <br>
 
   <p><img width="857" alt="Screenshot 2025-01-10 at 3 17 24 PM" src="https://github.com/user-attachments/assets/6e457ff1-b50a-4e47-aeca-39a4e8b02190" /></p>
