@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Understanding Network File Share Permissions</h1>
+<h1>Understanding Network File Shares & User Permissions</h1>
 This tutorial will walk through how to configure network file share permissions and how they affect users in Active Directory. <br />
 
 <h2>Prerequisites</h2>
